@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView numbers = (TextView)findViewById(R.id.numbers);
+        TextView numbers = findViewById(R.id.numbers);
         numbers.setOnClickListener(new View.OnClickListener(){
 
             /**
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 openNumbersList(v);
             }
         });
-        TextView family = (TextView)findViewById(R.id.family);
+        TextView family = findViewById(R.id.family);
         family.setOnClickListener(new View.OnClickListener(){
 
             /**
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 openFamilyList(v);
             }
         });
-        TextView colors = (TextView)findViewById(R.id.colors);
+        TextView colors = findViewById(R.id.colors);
         colors.setOnClickListener(new View.OnClickListener(){
 
             /**
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 openColorsList(v);
             }
         });
-        TextView phrases = (TextView)findViewById(R.id.phrases);
+        TextView phrases = findViewById(R.id.phrases);
         phrases.setOnClickListener(new View.OnClickListener(){
 
             /**
